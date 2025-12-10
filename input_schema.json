@@ -84,20 +84,6 @@
       "isSecret": true
     }
   },
-  "required": [
-    "jobPostingUrl",
-    "jobPostingText"
-  ],
-  "oneOf": [
-    {
-      "required": [
-        "jobPostingUrl"
-      ]
-    },
-    {
-      "required": [
-        "jobPostingText"
-      ]
-    }
-  ]
+  "required": [],
+  "additionalProperties": false
 }
