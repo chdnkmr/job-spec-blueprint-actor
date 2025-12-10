@@ -55,12 +55,12 @@
       "template": "{{estimatedDuration}}"
     },
     "totalTickets": {
-      "type": "integer",
+      "type": "string",
       "description": "Total number of tickets generated",
       "template": "{{totalTickets}}"
     },
     "learningHours": {
-      "type": "number",
+      "type": "string",
       "description": "Estimated learning hours required",
       "template": "{{learningHours}}"
     },
