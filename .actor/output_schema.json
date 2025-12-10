@@ -7,70 +7,84 @@
     "type": {
       "type": "string",
       "description": "Type of output: blueprint, tickets, summary, or error",
-      "enum": ["blueprint", "tickets", "summary", "error"]
+      "enum": ["blueprint", "tickets", "summary", "error"],
+      "template": "{{type}}"
     },
     "jobTitle": {
       "type": "string",
-      "description": "The job title being analyzed"
+      "description": "The job title being analyzed",
+      "template": "{{jobTitle}}"
     },
     "company": {
       "type": "string",
-      "description": "Company name"
+      "description": "Company name",
+      "template": "{{company}}"
     },
     "format": {
       "type": "string",
       "description": "Output format (json, markdown, or csv)",
-      "enum": ["json", "markdown", "csv"]
+      "enum": ["json", "markdown", "csv"],
+      "template": "{{format}}"
     },
     "data": {
       "type": ["object", "string"],
-      "description": "The actual output data (structure depends on type and format)"
+      "description": "The actual output data (structure depends on type and format)",
+      "template": "{{data}}"
     },
     "seniority": {
       "type": "string",
       "description": "Estimated seniority level",
-      "enum": ["junior", "mid", "senior", "staff", "principal"]
+      "enum": ["junior", "mid", "senior", "staff", "principal"],
+      "template": "{{seniority}}"
     },
     "technologies": {
       "type": "array",
       "description": "Key technologies identified",
       "items": {
         "type": "string"
-      }
+      },
+      "template": "{{technologies}}"
     },
     "challenges": {
       "type": "array",
       "description": "Main technical challenges",
       "items": {
         "type": "string"
-      }
+      },
+      "template": "{{challenges}}"
     },
     "successCriteria": {
       "type": "array",
       "description": "Success criteria for the project",
       "items": {
         "type": "string"
-      }
+      },
+      "template": "{{successCriteria}}"
     },
     "estimatedDuration": {
       "type": "string",
-      "description": "Estimated project duration"
+      "description": "Estimated project duration",
+      "template": "{{estimatedDuration}}"
     },
     "totalTickets": {
       "type": "integer",
-      "description": "Total number of tickets generated"
+      "description": "Total number of tickets generated",
+      "template": "{{totalTickets}}"
     },
     "learningHours": {
       "type": "number",
-      "description": "Estimated learning hours required"
+      "description": "Estimated learning hours required",
+      "template": "{{learningHours}}"
     },
     "error": {
       "type": "string",
-      "description": "Error message if processing failed"
+      "description": "Error message if processing failed",
+      "template": "{{error}}"
     },
     "timestamp": {
       "type": "string",
-      "description": "ISO timestamp of processing"
+      "description": "ISO timestamp of processing",
+      "template": "{{timestamp}}"
     }
   },
   "additionalProperties": true
