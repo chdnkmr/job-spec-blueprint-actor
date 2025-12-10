@@ -18,8 +18,8 @@
       }
     ]
   },
-  "input": "./input_schema.json",
-  "dockerfile": "./Dockerfile",
+  "input": "../input_schema.json",
+  "dockerfile": "../Dockerfile",
   "buildTag": "latest",
   "env": {
     "APIFY_HEADLESS": "1"
