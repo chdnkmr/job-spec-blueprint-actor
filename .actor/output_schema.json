@@ -35,18 +35,18 @@
       "template": "{{seniority}}"
     },
     "technologies": {
-      "type": "array",
-      "description": "Key technologies identified",
+      "type": "string",
+      "description": "Key technologies identified (comma-separated)",
       "template": "{{technologies}}"
     },
     "challenges": {
-      "type": "array",
-      "description": "Main technical challenges",
+      "type": "string",
+      "description": "Main technical challenges (comma-separated)",
       "template": "{{challenges}}"
     },
     "successCriteria": {
-      "type": "array",
-      "description": "Success criteria for the project",
+      "type": "string",
+      "description": "Success criteria for the project (comma-separated)",
       "template": "{{successCriteria}}"
     },
     "estimatedDuration": {
