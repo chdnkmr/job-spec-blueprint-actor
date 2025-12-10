@@ -25,7 +25,7 @@
       "template": "{{format}}"
     },
     "data": {
-      "type": ["object", "string"],
+      "type": "string",
       "description": "The actual output data (structure depends on type and format)",
       "template": "{{data}}"
     },
