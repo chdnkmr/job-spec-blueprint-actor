@@ -7,7 +7,7 @@
       "title": "Job Posting URL",
       "description": "URL of the job posting to analyze (e.g., LinkedIn, Indeed, company careers page)",
       "type": "string",
-      "editor": "textinput",
+      "editor": "textfield",
       "pattern": "^https?://"
     },
     "jobPostingText": {
@@ -20,13 +20,13 @@
       "title": "Company Name",
       "description": "Name of the company posting the job (optional, auto-detected from URL if possible)",
       "type": "string",
-      "editor": "textinput"
+      "editor": "textfield"
     },
     "jobTitle": {
       "title": "Job Title",
       "description": "The position title (optional, auto-extracted from posting)",
       "type": "string",
-      "editor": "textinput"
+      "editor": "textfield"
     },
     "includeArchitecture": {
       "title": "Include Architecture Suggestions",
@@ -80,7 +80,7 @@
       "title": "API Key",
       "description": "API key for the selected AI provider (store securely in Apify secrets)",
       "type": "string",
-      "editor": "textinput",
+      "editor": "textfield",
       "isSecret": true
     }
   },
