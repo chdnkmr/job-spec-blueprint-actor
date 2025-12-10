@@ -7,7 +7,6 @@
     "type": {
       "type": "string",
       "description": "Type of output: blueprint, tickets, summary, or error",
-      "enum": ["blueprint", "tickets", "summary", "error"],
       "template": "{{type}}"
     },
     "jobTitle": {
@@ -23,7 +22,6 @@
     "format": {
       "type": "string",
       "description": "Output format (json, markdown, or csv)",
-      "enum": ["json", "markdown", "csv"],
       "template": "{{format}}"
     },
     "data": {
@@ -33,8 +31,7 @@
     },
     "seniority": {
       "type": "string",
-      "description": "Estimated seniority level",
-      "enum": ["junior", "mid", "senior", "staff", "principal"],
+      "description": "Estimated seniority level (junior, mid, senior, staff, principal)",
       "template": "{{seniority}}"
     },
     "technologies": {
