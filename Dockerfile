@@ -4,11 +4,17 @@ WORKDIR /app
 
 # Install dependencies
 COPY package*.json ./
-RUN npm ci --only=production
+RUN npm ci
 
-# Copy built application
-COPY dist ./dist
+# Copy source files
 COPY src ./src
+COPY tsconfig.json ./
+
+# Build the application
+RUN npm run build
+
+# Remove dev dependencies for production
+RUN npm ci --only=production && npm cache clean --force
 
 # Run the actor
 CMD ["npm", "start"]
