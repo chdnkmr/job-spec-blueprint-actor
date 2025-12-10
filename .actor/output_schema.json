@@ -1,4 +1,5 @@
 {
+  "actorOutputSchemaVersion": 1,
   "title": "Job Spec → Blueprint Generator Output",
   "description": "Output schema for the Job Spec Blueprint Generator Actor",
   "type": "object",
