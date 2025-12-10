@@ -1,0 +1,718 @@
+{
+	"type": "blueprint",
+	"format": "json",
+	"jobTitle": "Senior Full-Stack Engineer",
+	"company": "InnovateTech",
+	"data": {
+		"metadata": {
+			"generatedAt": "2025-12-10T19:01:06.325Z",
+			"jobTitle": "Senior Full-Stack Engineer",
+			"company": "InnovateTech",
+			"seniority": "senior",
+			"estimatedDuration": 60
+		},
+		"roadmap": {
+			"projectName": "Senior Full-Stack Engineer @ InnovateTech",
+			"description": "Project roadmap for Senior Full-Stack Engineer @ InnovateTech. Total estimated duration: 60 days.",
+			"totalDuration": 60,
+			"startDate": "2025-12-10",
+			"epics": [
+				{
+					"id": "EPIC-1",
+					"name": "Project Setup & Architecture Foundation",
+					"description": "Initialize project structure, set up development environment, and establish architectural foundation",
+					"duration": "Week 1-2",
+					"weekNumber": 1,
+					"tickets": [
+						{
+							"id": "TICKET-KX0AW",
+							"title": "Initialize project repository and CI/CD pipeline",
+							"description": "Implement: Initialize project repository and CI/CD pipeline",
+							"storyPoints": 5,
+							"priority": "critical",
+							"taskType": "technical-debt",
+							"acceptanceCriteria": [
+								"Code is written and passes linting",
+								"Unit tests written with >80% coverage",
+								"Code review completed and approved",
+								"Merged to main branch",
+								"Documentation updated"
+							]
+						},
+						{
+							"id": "TICKET-VFKABD",
+							"title": "Set up development environment documentation",
+							"description": "Implement: Set up development environment documentation",
+							"storyPoints": 3,
+							"priority": "high",
+							"taskType": "documentation",
+							"acceptanceCriteria": [
+								"Code is written and passes linting",
+								"Unit tests written with >80% coverage",
+								"Code review completed and approved",
+								"Merged to main branch",
+								"Documentation updated"
+							],
+							"dependencies": [
+								"Initialize project repository and CI/CD pipeline"
+							]
+						},
+						{
+							"id": "TICKET-9YMZP6",
+							"title": "Configure linting, formatting, and pre-commit hooks",
+							"description": "Implement: Configure linting, formatting, and pre-commit hooks",
+							"storyPoints": 3,
+							"priority": "high",
+							"taskType": "technical-debt",
+							"acceptanceCriteria": [
+								"Code is written and passes linting",
+								"Unit tests written with >80% coverage",
+								"Code review completed and approved",
+								"Merged to main branch",
+								"Documentation updated"
+							],
+							"dependencies": [
+								"Initialize project repository and CI/CD pipeline"
+							]
+						},
+						{
+							"id": "TICKET-9FCL68",
+							"title": "Design and document system architecture",
+							"description": "Implement: Design and document system architecture",
+							"storyPoints": 8,
+							"priority": "critical",
+							"taskType": "documentation",
+							"acceptanceCriteria": [
+								"Code is written and passes linting",
+								"Unit tests written with >80% coverage",
+								"Code review completed and approved",
+								"Merged to main branch",
+								"Documentation updated"
+							],
+							"dependencies": [
+								"Initialize project repository and CI/CD pipeline"
+							]
+						},
+						{
+							"id": "TICKET-U6RL38J",
+							"title": "Set up database schema and migrations",
+							"description": "Implement: Set up database schema and migrations",
+							"storyPoints": 5,
+							"priority": "critical",
+							"taskType": "feature",
+							"acceptanceCriteria": [
+								"Code is written and passes linting",
+								"Unit tests written with >80% coverage",
+								"Code review completed and approved",
+								"Merged to main branch",
+								"Documentation updated"
+							],
+							"dependencies": [
+								"Initialize project repository and CI/CD pipeline"
+							]
+						},
+						{
+							"id": "TICKET-AAIKSA",
+							"title": "Create base project structure and utilities",
+							"description": "Implement: Create base project structure and utilities",
+							"storyPoints": 5,
+							"priority": "high",
+							"taskType": "technical-debt",
+							"acceptanceCriteria": [
+								"Code is written and passes linting",
+								"Unit tests written with >80% coverage",
+								"Code review completed and approved",
+								"Merged to main branch",
+								"Documentation updated"
+							],
+							"dependencies": [
+								"Initialize project repository and CI/CD pipeline"
+							]
+						}
+					],
+					"goals": [
+						"Set up development environment and toolchain",
+						"Establish project repository and CI/CD pipeline",
+						"Create architectural design documents",
+						"Set up database schema"
+					],
+					"successMetrics": [
+						"All tickets completed and tested",
+						"Code review approval from lead",
+						"No critical issues remaining",
+						"> 80% test coverage for new code"
+					]
+				},
+				{
+					"id": "EPIC-2",
+					"name": "Core Features Implementation - Phase 1",
+					"description": "Build foundational features and core business logic",
+					"duration": "Week 3-4",
+					"weekNumber": 3,
+					"tickets": [
+						{
+							"id": "TICKET-NUVGM",
+							"title": "Implement user authentication system",
+							"description": "Implement: Implement user authentication system",
+							"storyPoints": 8,
+							"priority": "critical",
+							"taskType": "feature",
+							"acceptanceCriteria": [
+								"Code is written and passes linting",
+								"Unit tests written with >80% coverage",
+								"Code review completed and approved",
+								"Merged to main branch",
+								"Documentation updated"
+							]
+						},
+						{
+							"id": "TICKET-5GUUDE",
+							"title": "Build authorization and role management",
+							"description": "Implement: Build authorization and role management",
+							"storyPoints": 5,
+							"priority": "critical",
+							"taskType": "feature",
+							"acceptanceCriteria": [
+								"Code is written and passes linting",
+								"Unit tests written with >80% coverage",
+								"Code review completed and approved",
+								"Merged to main branch",
+								"Documentation updated"
+							],
+							"dependencies": [
+								"Implement user authentication system"
+							]
+						},
+						{
+							"id": "TICKET-19W61",
+							"title": "Create REST API endpoints for core resources",
+							"description": "Implement: Create REST API endpoints for core resources",
+							"storyPoints": 8,
+							"priority": "critical",
+							"taskType": "feature",
+							"acceptanceCriteria": [
+								"Code is written and passes linting",
+								"Unit tests written with >80% coverage",
+								"Code review completed and approved",
+								"Merged to main branch",
+								"Documentation updated"
+							],
+							"dependencies": [
+								"Implement user authentication system"
+							]
+						},
+						{
+							"id": "TICKET-TRB0PG",
+							"title": "Implement data access layer/ORM",
+							"description": "Implement: Implement data access layer/ORM",
+							"storyPoints": 5,
+							"priority": "high",
+							"taskType": "technical-debt",
+							"acceptanceCriteria": [
+								"Code is written and passes linting",
+								"Unit tests written with >80% coverage",
+								"Code review completed and approved",
+								"Merged to main branch",
+								"Documentation updated"
+							],
+							"dependencies": [
+								"Implement user authentication system"
+							]
+						},
+						{
+							"id": "TICKET-C1OZ1N",
+							"title": "Set up comprehensive error handling",
+							"description": "Implement: Set up comprehensive error handling",
+							"storyPoints": 3,
+							"priority": "high",
+							"taskType": "technical-debt",
+							"acceptanceCriteria": [
+								"Code is written and passes linting",
+								"Unit tests written with >80% coverage",
+								"Code review completed and approved",
+								"Merged to main branch",
+								"Documentation updated"
+							],
+							"dependencies": [
+								"Implement user authentication system"
+							]
+						},
+						{
+							"id": "TICKET-PKGGT1",
+							"title": "Implement request validation",
+							"description": "Implement: Implement request validation",
+							"storyPoints": 3,
+							"priority": "high",
+							"taskType": "feature",
+							"acceptanceCriteria": [
+								"Code is written and passes linting",
+								"Unit tests written with >80% coverage",
+								"Code review completed and approved",
+								"Merged to main branch",
+								"Documentation updated"
+							],
+							"dependencies": [
+								"Implement user authentication system"
+							]
+						}
+					],
+					"goals": [
+						"Implement authentication and authorization",
+						"Build core API endpoints",
+						"Create data access layer",
+						"Establish error handling patterns"
+					],
+					"successMetrics": [
+						"All tickets completed and tested",
+						"Code review approval from lead",
+						"No critical issues remaining",
+						"> 80% test coverage for new code"
+					]
+				}
+			],
+			"estimatedTeamSize": 4,
+			"keyMilestones": [
+				"Week 2: Core Features",
+				"Week 4: Integration",
+				"Week 6: Testing",
+				"Week 8: Deployment"
+			]
+		},
+		"architecture": {
+			"overview": "A scalable, modular architecture designed for the healthcare, ml, ble, devops domain(s) using python, typescript with react, fastapi frameworks and graphql databases.",
+			"modules": [
+				{
+					"name": "API Gateway",
+					"responsibility": "Route requests, handle authentication, rate limiting, and request validation",
+					"dependencies": [
+						"Auth Service"
+					],
+					"technologies": [
+						"HTTP",
+						"REST/GraphQL"
+					]
+				},
+				{
+					"name": "Authentication & Authorization",
+					"responsibility": "User authentication, JWT/OAuth management, and permission enforcement",
+					"dependencies": [],
+					"technologies": [
+						"JWT",
+						"OAuth 2.0",
+						"RBAC"
+					]
+				},
+				{
+					"name": "Core Business Logic",
+					"responsibility": "Implement domain-specific business rules and workflows",
+					"dependencies": [
+						"Data Access Layer",
+						"External Services"
+					],
+					"technologies": [
+						"react",
+						"fastapi"
+					]
+				},
+				{
+					"name": "Data Access Layer",
+					"responsibility": "Database operations, caching, and query optimization",
+					"dependencies": [],
+					"technologies": [
+						"graphql"
+					]
+				},
+				{
+					"name": "ML Pipeline",
+					"responsibility": "Model training, inference, and data processing",
+					"dependencies": [
+						"Data Access Layer"
+					],
+					"technologies": [
+						"TensorFlow",
+						"PyTorch",
+						"scikit-learn"
+					]
+				}
+			],
+			"dataModels": [
+				{
+					"entity": "User",
+					"fields": {
+						"id": "UUID (Primary Key)",
+						"email": "String (Unique)",
+						"passwordHash": "String",
+						"firstName": "String",
+						"lastName": "String",
+						"role": "Enum (admin, user, moderator)",
+						"createdAt": "Timestamp",
+						"updatedAt": "Timestamp",
+						"isActive": "Boolean"
+					},
+					"relationships": [
+						"has many Profiles",
+						"has many Sessions"
+					],
+					"indexes": [
+						"email",
+						"createdAt"
+					]
+				},
+				{
+					"entity": "Session",
+					"fields": {
+						"id": "UUID (Primary Key)",
+						"userId": "UUID (Foreign Key)",
+						"token": "String",
+						"expiresAt": "Timestamp",
+						"createdAt": "Timestamp",
+						"lastActivityAt": "Timestamp"
+					},
+					"relationships": [
+						"belongs to User"
+					],
+					"indexes": [
+						"userId",
+						"token"
+					]
+				}
+			],
+			"apis": [
+				{
+					"method": "POST",
+					"path": "/api/auth/register",
+					"description": "Register a new user",
+					"requestBody": {
+						"email": "string",
+						"password": "string",
+						"firstName": "string",
+						"lastName": "string"
+					},
+					"responseBody": {
+						"userId": "string",
+						"token": "string",
+						"message": "string"
+					}
+				},
+				{
+					"method": "POST",
+					"path": "/api/auth/login",
+					"description": "User login",
+					"requestBody": {
+						"email": "string",
+						"password": "string"
+					},
+					"responseBody": {
+						"token": "string",
+						"user": "object",
+						"expiresIn": "number"
+					}
+				},
+				{
+					"method": "GET",
+					"path": "/api/users/:userId",
+					"description": "Get user profile",
+					"responseBody": {
+						"id": "string",
+						"email": "string",
+						"firstName": "string",
+						"lastName": "string",
+						"role": "string"
+					}
+				},
+				{
+					"method": "PUT",
+					"path": "/api/users/:userId",
+					"description": "Update user profile",
+					"requestBody": {
+						"firstName": "string",
+						"lastName": "string"
+					},
+					"responseBody": {
+						"id": "string",
+						"email": "string",
+						"firstName": "string",
+						"lastName": "string"
+					}
+				},
+				{
+					"method": "GET",
+					"path": "/api/health",
+					"description": "Health check endpoint",
+					"responseBody": {
+						"status": "string",
+						"timestamp": "string"
+					}
+				}
+			],
+			"integrations": [
+				"AWS Services (S3, Lambda, RDS)"
+			],
+			"nonFunctionalRequirements": [
+				"High availability (99.9% uptime)",
+				"Low latency (<500ms p99)",
+				"Horizontal scalability",
+				"Data consistency and ACID compliance",
+				"Auto-scaling capability"
+			],
+			"securityConsiderations": [
+				"Input validation and sanitization",
+				"SQL injection prevention",
+				"XSS prevention",
+				"CSRF protection",
+				"Rate limiting and DDoS protection",
+				"Secure password hashing (bcrypt/Argon2)",
+				"JWT/OAuth 2.0 implementation"
+			],
+			"scalingStrategy": "Horizontal scaling with containerized microservices, load balancing, and service mesh for inter-service communication."
+		},
+		"testPlan": {
+			"overview": "Comprehensive testing strategy including unit tests, integration tests, and end-to-end tests. Target 80%+ code coverage with focus on critical paths.",
+			"unitTestCoverage": "Aim for 80%+ code coverage. Use Jest/Vitest for JS, pytest for Python, or JUnit for Java.",
+			"integrationTestScenarios": [
+				"API endpoint integration tests with mock databases",
+				"Database transaction rollback scenarios",
+				"External API integration failures and retries",
+				"Cache invalidation and refresh",
+				"Multi-service communication (if microservices)",
+				"Authentication and authorization flows"
+			],
+			"e2eTestScenarios": [
+				"Complete user registration and login flow",
+				"Core business process workflows",
+				"Payment/transaction flows (if applicable)",
+				"Error handling and recovery",
+				"Performance under load",
+				"Database consistency checks"
+			],
+			"performanceTargets": {
+				"API response time (p99)": "< 500ms",
+				"Database query latency (p99)": "< 200ms",
+				"Authentication latency": "< 100ms",
+				"Throughput": "> 1000 requests/second"
+			},
+			"loadTestingStrategy": "Use k6, JMeter, or Locust. Simulate realistic user load with ramp-up patterns. Test to 2x expected peak traffic.",
+			"securityTestCases": [
+				"SQL injection prevention",
+				"XSS prevention",
+				"CSRF protection",
+				"Authentication bypass attempts",
+				"Authorization boundary testing",
+				"Rate limiting validation"
+			]
+		},
+		"learningPlan": {
+			"overview": "Customized learning plan for Senior Full-Stack Engineer. Estimated 235 hours of learning. Covers python, typescript with react, fastapi and healthcare, ml, ble, devops domain knowledge.",
+			"estimatedTotalHours": 235,
+			"learningPhases": [
+				{
+					"phase": 1,
+					"name": "Foundation & Setup",
+					"duration": "1-2 weeks",
+					"focus": [
+						"Project setup and development environment",
+						"Version control and CI/CD basics",
+						"Core language features and best practices"
+					],
+					"milestones": [
+						"Local dev environment running",
+						"First commit to repo",
+						"Simple unit test passing"
+					]
+				},
+				{
+					"phase": 2,
+					"name": "Core Concepts",
+					"duration": "2-3 weeks",
+					"focus": [
+						"Selected frameworks deep dive",
+						"Database design and queries",
+						"API design principles",
+						"Authentication and authorization"
+					],
+					"milestones": [
+						"Complete framework course",
+						"Design database schema",
+						"Implement first API"
+					]
+				},
+				{
+					"phase": 3,
+					"name": "Domain Expertise",
+					"duration": "2-4 weeks",
+					"focus": [
+						"Domain-specific patterns",
+						"Testing strategies",
+						"Performance optimization",
+						"Security best practices"
+					],
+					"milestones": [
+						"80% test coverage",
+						"Performance benchmarks established",
+						"Security audit passed"
+					]
+				}
+			],
+			"skillGaps": [
+				{
+					"skill": "python Advanced Proficiency",
+					"importance": "critical",
+					"currentLevel": 0,
+					"targetLevel": 8,
+					"estimatedHours": 40,
+					"resources": [
+						{
+							"title": "Python Official Docs",
+							"type": "documentation",
+							"url": "https://docs.python.org/3/",
+							"estimatedHours": 10,
+							"difficulty": "intermediate"
+						},
+						{
+							"title": "Real Python Tutorials",
+							"type": "tutorial",
+							"url": "https://realpython.com/",
+							"estimatedHours": 20,
+							"difficulty": "intermediate"
+						}
+					]
+				},
+				{
+					"skill": "typescript Advanced Proficiency",
+					"importance": "critical",
+					"currentLevel": 0,
+					"targetLevel": 8,
+					"estimatedHours": 40,
+					"resources": [
+						{
+							"title": "TypeScript Handbook",
+							"type": "documentation",
+							"url": "https://www.typescriptlang.org/docs/",
+							"estimatedHours": 10,
+							"difficulty": "intermediate"
+						},
+						{
+							"title": "Advanced TypeScript Course",
+							"type": "course",
+							"url": "https://www.udemy.com/course/advanced-typescript/",
+							"estimatedHours": 15,
+							"difficulty": "advanced"
+						}
+					]
+				},
+				{
+					"skill": "react Deep Dive",
+					"importance": "high",
+					"currentLevel": 0,
+					"targetLevel": 7,
+					"estimatedHours": 30,
+					"resources": [
+						{
+							"title": "React Official Tutorial",
+							"type": "tutorial",
+							"url": "https://react.dev/learn",
+							"estimatedHours": 10,
+							"difficulty": "beginner"
+						},
+						{
+							"title": "Advanced React Patterns",
+							"type": "course",
+							"url": "https://advancedreact.com/",
+							"estimatedHours": 20,
+							"difficulty": "advanced"
+						}
+					]
+				},
+				{
+					"skill": "fastapi Deep Dive",
+					"importance": "high",
+					"currentLevel": 0,
+					"targetLevel": 7,
+					"estimatedHours": 30,
+					"resources": [
+						{
+							"title": "FastAPI Full Stack",
+							"type": "tutorial",
+							"url": "https://fastapi.tiangolo.com/",
+							"estimatedHours": 15,
+							"difficulty": "intermediate"
+						}
+					]
+				},
+				{
+					"skill": "graphql Database Design",
+					"importance": "high",
+					"currentLevel": 0,
+					"targetLevel": 7,
+					"estimatedHours": 20,
+					"resources": [
+						{
+							"title": "graphql Official Docs",
+							"type": "documentation",
+							"url": "https://graphql.org",
+							"estimatedHours": 10,
+							"difficulty": "intermediate"
+						}
+					]
+				},
+				{
+					"skill": "healthcare Domain Expertise",
+					"importance": "high",
+					"currentLevel": 0,
+					"targetLevel": 6,
+					"estimatedHours": 25,
+					"resources": []
+				},
+				{
+					"skill": "ml Domain Expertise",
+					"importance": "high",
+					"currentLevel": 0,
+					"targetLevel": 6,
+					"estimatedHours": 25,
+					"resources": [
+						{
+							"title": "Fast.ai - Practical Deep Learning",
+							"type": "course",
+							"url": "https://www.fast.ai/",
+							"estimatedHours": 40,
+							"difficulty": "intermediate"
+						}
+					]
+				},
+				{
+					"skill": "ble Domain Expertise",
+					"importance": "high",
+					"currentLevel": 0,
+					"targetLevel": 6,
+					"estimatedHours": 25,
+					"resources": []
+				}
+			],
+			"recommendedPath": "Start with python fundamentals, then progress to react deep dive, followed by domain-specific patterns in healthcare."
+		},
+		"summary": {
+			"keyTechnologies": [
+				"python",
+				"typescript",
+				"react",
+				"fastapi",
+				"graphql",
+				"aws",
+				"docker",
+				"kubernetes"
+			],
+			"mainChallenges": [
+				"Model training and optimization",
+				"Horizontal scaling architecture"
+			],
+			"successCriteria": [
+				"All epics completed within timeline",
+				"80%+ test coverage achieved",
+				"Performance benchmarks met",
+				"Zero critical security issues",
+				"Smooth deployment to production",
+				"Complete documentation"
+			]
+		}
+	}
+}

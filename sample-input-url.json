@@ -1,0 +1,10 @@
+{
+  "jobPostingUrl": "https://example.com/job/senior-fullstack-engineer",
+  "companyName": "TechCorp",
+  "jobTitle": "Senior Full-Stack Engineer",
+  "includeArchitecture": true,
+  "includeTestPlan": true,
+  "includeLearningPlan": true,
+  "roadmapDurationDays": 60,
+  "outputFormat": "both"
+}

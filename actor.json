@@ -1,0 +1,45 @@
+{
+  "actorSpecVersion": 1,
+  "name": "job-spec-blueprint-actor",
+  "title": "Job Spec → AI Project Blueprint Generator",
+  "description": "Transforms any job posting into a fully structured project roadmap with Jira-style tickets, architecture notes, test plan, and skill-gap learning plan. Perfect for onboarding engineers, project planning, or candidate preparation.",
+  "version": "1.0.0",
+  "meta": {
+    "maintainers": [
+      "apify"
+    ],
+    "changelog": [
+      {
+        "version": "1.0.0",
+        "releaseDate": "2025-12-10",
+        "changes": [
+          "Initial release of Job Spec Blueprint Generator Actor"
+        ]
+      }
+    ]
+  },
+  "input": "./input_schema.json",
+  "dockerfile": "./Dockerfile",
+  "buildTag": "latest",
+  "env": {
+    "APIFY_HEADLESS": "1"
+  },
+  "platform": {
+    "minMemMbytes": 512,
+    "maxMemMbytes": 4096
+  },
+  "category": [
+    "PRODUCTIVITY",
+    "UTILITIES"
+  ],
+  "tags": [
+    "job-posting",
+    "project-planning",
+    "roadmap",
+    "blueprint",
+    "ai-analysis",
+    "engineering",
+    "onboarding",
+    "learning-plan"
+  ]
+}

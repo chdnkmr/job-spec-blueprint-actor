@@ -1,0 +1,103 @@
+{
+  "title": "Job Spec → Blueprint Generator Input",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "jobPostingUrl": {
+      "title": "Job Posting URL",
+      "description": "URL of the job posting to analyze (e.g., LinkedIn, Indeed, company careers page)",
+      "type": "string",
+      "editor": "textinput",
+      "pattern": "^https?://"
+    },
+    "jobPostingText": {
+      "title": "Job Posting Text (Alternative)",
+      "description": "Paste the job posting text directly if URL is not available",
+      "type": "string",
+      "editor": "textarea"
+    },
+    "companyName": {
+      "title": "Company Name",
+      "description": "Name of the company posting the job (optional, auto-detected from URL if possible)",
+      "type": "string",
+      "editor": "textinput"
+    },
+    "jobTitle": {
+      "title": "Job Title",
+      "description": "The position title (optional, auto-extracted from posting)",
+      "type": "string",
+      "editor": "textinput"
+    },
+    "includeArchitecture": {
+      "title": "Include Architecture Suggestions",
+      "description": "Generate detailed architecture notes with modules and data models",
+      "type": "boolean",
+      "default": true
+    },
+    "includeTestPlan": {
+      "title": "Include Test Plan",
+      "description": "Generate testing strategy and test cases outline",
+      "type": "boolean",
+      "default": true
+    },
+    "includeLearningPlan": {
+      "title": "Include Learning Plan",
+      "description": "Generate skill-gap analysis with curated learning resources",
+      "type": "boolean",
+      "default": true
+    },
+    "roadmapDurationDays": {
+      "title": "Roadmap Duration (Days)",
+      "description": "Timeline for the project roadmap (30 or 60 days recommended)",
+      "type": "integer",
+      "default": 60,
+      "minimum": 7,
+      "maximum": 180
+    },
+    "outputFormat": {
+      "title": "Output Format",
+      "description": "Format for the generated blueprint",
+      "type": "string",
+      "enum": [
+        "json",
+        "markdown",
+        "both"
+      ],
+      "default": "both"
+    },
+    "aiProvider": {
+      "title": "AI Provider",
+      "description": "Which AI service to use for analysis",
+      "type": "string",
+      "enum": [
+        "openai",
+        "anthropic",
+        "local"
+      ],
+      "default": "openai"
+    },
+    "apiKey": {
+      "title": "API Key",
+      "description": "API key for the selected AI provider (store securely in Apify secrets)",
+      "type": "string",
+      "editor": "textinput",
+      "isSecret": true
+    }
+  },
+  "required": [
+    "jobPostingUrl",
+    "jobPostingText"
+  ],
+  "oneOf": [
+    {
+      "required": [
+        "jobPostingUrl"
+      ]
+    },
+    {
+      "required": [
+        "jobPostingText"
+      ]
+    }
+  ]
+}

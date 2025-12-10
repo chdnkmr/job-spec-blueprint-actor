@@ -1,0 +1,10 @@
+{
+  "jobPostingText": "Senior Full-Stack Engineer - Python & React\n\nAbout the Role:\nWe're looking for a talented Senior Full-Stack Engineer to join our growing team. You'll be responsible for designing and implementing scalable web applications using Python and React.\n\nResponsibilities:\n- Design and develop RESTful APIs using Python and FastAPI\n- Build responsive user interfaces with React and TypeScript\n- Optimize database queries and implement caching strategies\n- Lead code reviews and mentor junior developers\n- Collaborate with product and design teams\n\nRequired Skills:\n- 5+ years of professional experience\n- Expert-level Python development\n- Advanced React and TypeScript knowledge\n- SQL and NoSQL database design\n- AWS or cloud platform experience\n- Docker and Kubernetes\n- CI/CD pipeline experience\n\nNice to Have:\n- Experience with microservices architecture\n- GraphQL API development\n- Machine Learning basics\n- Open source contributions\n\nBenefits:\n- Competitive salary\n- Remote work options\n- Professional development budget\n- Health insurance\n- Flexible working hours",
+  "companyName": "InnovateTech",
+  "jobTitle": "Senior Full-Stack Engineer",
+  "includeArchitecture": true,
+  "includeTestPlan": true,
+  "includeLearningPlan": true,
+  "roadmapDurationDays": 60,
+  "outputFormat": "both"
+}

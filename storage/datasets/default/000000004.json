@@ -1,0 +1,31 @@
+{
+	"type": "summary",
+	"jobTitle": "Senior Full-Stack Engineer",
+	"company": "InnovateTech",
+	"seniority": "senior",
+	"technologies": [
+		"python",
+		"typescript",
+		"react",
+		"fastapi",
+		"graphql",
+		"aws",
+		"docker",
+		"kubernetes"
+	],
+	"challenges": [
+		"Model training and optimization",
+		"Horizontal scaling architecture"
+	],
+	"successCriteria": [
+		"All epics completed within timeline",
+		"80%+ test coverage achieved",
+		"Performance benchmarks met",
+		"Zero critical security issues",
+		"Smooth deployment to production",
+		"Complete documentation"
+	],
+	"estimatedDuration": 60,
+	"totalTickets": 12,
+	"learningHours": 235
+}
