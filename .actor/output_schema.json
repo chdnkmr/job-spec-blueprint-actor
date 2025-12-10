@@ -1,0 +1,76 @@
+{
+  "title": "Job Spec → Blueprint Generator Output",
+  "description": "Output schema for the Job Spec Blueprint Generator Actor",
+  "type": "object",
+  "properties": {
+    "type": {
+      "type": "string",
+      "description": "Type of output: blueprint, tickets, summary, or error",
+      "enum": ["blueprint", "tickets", "summary", "error"]
+    },
+    "jobTitle": {
+      "type": "string",
+      "description": "The job title being analyzed"
+    },
+    "company": {
+      "type": "string",
+      "description": "Company name"
+    },
+    "format": {
+      "type": "string",
+      "description": "Output format (json, markdown, or csv)",
+      "enum": ["json", "markdown", "csv"]
+    },
+    "data": {
+      "type": ["object", "string"],
+      "description": "The actual output data (structure depends on type and format)"
+    },
+    "seniority": {
+      "type": "string",
+      "description": "Estimated seniority level",
+      "enum": ["junior", "mid", "senior", "staff", "principal"]
+    },
+    "technologies": {
+      "type": "array",
+      "description": "Key technologies identified",
+      "items": {
+        "type": "string"
+      }
+    },
+    "challenges": {
+      "type": "array",
+      "description": "Main technical challenges",
+      "items": {
+        "type": "string"
+      }
+    },
+    "successCriteria": {
+      "type": "array",
+      "description": "Success criteria for the project",
+      "items": {
+        "type": "string"
+      }
+    },
+    "estimatedDuration": {
+      "type": "string",
+      "description": "Estimated project duration"
+    },
+    "totalTickets": {
+      "type": "integer",
+      "description": "Total number of tickets generated"
+    },
+    "learningHours": {
+      "type": "number",
+      "description": "Estimated learning hours required"
+    },
+    "error": {
+      "type": "string",
+      "description": "Error message if processing failed"
+    },
+    "timestamp": {
+      "type": "string",
+      "description": "ISO timestamp of processing"
+    }
+  },
+  "additionalProperties": true
+}
