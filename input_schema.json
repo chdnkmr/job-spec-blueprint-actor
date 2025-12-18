@@ -8,25 +8,29 @@
       "description": "⚠️ REQUIRED: Provide either this URL OR the text below. URL of the job posting to analyze (e.g., LinkedIn, Indeed, company careers page)",
       "type": "string",
       "editor": "textfield",
-      "pattern": "^https?://"
+      "pattern": "^https?://",
+      "default": "https://www.linkedin.com/jobs/collections/recommended/?currentJobId=4324324880"
     },
     "jobPostingText": {
       "title": "Job Posting Text (Required* Alternative)",
       "description": "⚠️ REQUIRED: Provide either this text OR the URL above. Paste the job posting text directly if URL is not available",
       "type": "string",
-      "editor": "textarea"
+      "editor": "textarea",
+      "default": "The successful candidate will be a highly motivated self-starter with experience in realizing the requirements into products. You will be responsible for requirements analysis, technical feasibility evaluation, development, delivery of the features and support till end of product life. Candidates have to ensure seamless integration of software updates, enabling faster Android upgrades and timely Motorola apps updates. Candidate is responsible for creating innovations on Motorola products, which help consumers worldwide enrich their digital lives. These are in the space of cool innovative software-hardware pairings.\n\nPrimary Responsibilities:\nAndroid Application and Framework development: Job responsibilities also include Android application/native software development across different subsystems of mobile device, requirements definition & planning, design, test, debug and competitive analysis.\n\nOn-Device AI Integration: Implement on-device AI frameworks and libraries to enable real-time AI processing, ensuring efficient utilization of device resources.\n\nOff-Device AI Infrastructure: Architect and maintain scalable infrastructure for off-device AI processing, leveraging cloud services and distributed computing techniques.\n\nPerformance Optimization: Optimize AI algorithms and workflows to achieve optimal performance on mobile devices while balancing computational resources and battery life.\n\nCollaboration: Collaborate with product managers, designers, and other engineers to ideate and implement AI-powered features that enhance user experiences.\n\nResearch and Innovation: Stay updated with the latest advancements in AI technologies and contribute to research initiatives aimed at driving innovation in mobile AI solutions."
     },
     "companyName": {
       "title": "Company Name",
       "description": "Name of the company posting the job (optional, auto-detected from URL if possible)",
       "type": "string",
-      "editor": "textfield"
+      "editor": "textfield",
+      "default": "Motorola Mobility"
     },
     "jobTitle": {
       "title": "Job Title",
       "description": "The position title (optional, auto-extracted from posting)",
       "type": "string",
-      "editor": "textfield"
+      "editor": "textfield",
+      "default": "Senior Android Engineer"
     },
     "includeArchitecture": {
       "title": "Include Architecture Suggestions",
