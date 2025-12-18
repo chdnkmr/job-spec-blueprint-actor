@@ -4,15 +4,15 @@
   "schemaVersion": 1,
   "properties": {
     "jobPostingUrl": {
-      "title": "Job Posting URL",
-      "description": "URL of the job posting to analyze (e.g., LinkedIn, Indeed, company careers page)",
+      "title": "Job Posting URL (Required*)",
+      "description": "⚠️ REQUIRED: Provide either this URL OR the text below. URL of the job posting to analyze (e.g., LinkedIn, Indeed, company careers page)",
       "type": "string",
       "editor": "textfield",
       "pattern": "^https?://"
     },
     "jobPostingText": {
-      "title": "Job Posting Text (Alternative)",
-      "description": "Paste the job posting text directly if URL is not available",
+      "title": "Job Posting Text (Required* Alternative)",
+      "description": "⚠️ REQUIRED: Provide either this text OR the URL above. Paste the job posting text directly if URL is not available",
       "type": "string",
       "editor": "textarea"
     },
@@ -85,13 +85,5 @@
     }
   },
   "required": [],
-  "additionalProperties": false,
-  "oneOf": [
-    {
-      "required": ["jobPostingUrl"]
-    },
-    {
-      "required": ["jobPostingText"]
-    }
-  ]
+  "additionalProperties": false
 }
