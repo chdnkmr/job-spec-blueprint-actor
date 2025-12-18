@@ -85,5 +85,13 @@
     }
   },
   "required": [],
-  "additionalProperties": false
+  "additionalProperties": false,
+  "oneOf": [
+    {
+      "required": ["jobPostingUrl"]
+    },
+    {
+      "required": ["jobPostingText"]
+    }
+  ]
 }
